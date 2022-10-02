@@ -3,7 +3,7 @@
     "mega": "Mega",
     "mega-sep": " ",
     "primal": "Primal",
-    "clone": "(clone)",
+    "clone": "(Clone)",
     "spooky": "Spooky",
     "rose": "(Rose)",
     "alolan": "Alolan",
@@ -25,7 +25,7 @@
     "white": "(White)"
   },
   "Bulbasaur": "Bulbasaur",
-  "Bulbasaur (clone)": "$t(Bulbasaur) $t(alt.clone)",
+  "Bulbasaur (Clone)": "$t(Bulbasaur) $t(alt.clone)",
   "Spooky Bulbasaur": "$t(alt.spooky) $t(Bulbasaur)",
   "Bulbasaur (Rose)": "$t(Bulbasaur) $t(alt.rose)",
   "Ivysaur": "Ivysaur",
