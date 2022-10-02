@@ -22,7 +22,6 @@
     "yellow": "(Yellow)",
     "blue": "(Blue)",
     "orange": "(Orange)",
-    "white": "(White)"
   },
   "Bulbasaur": "Bulbasaur",
   "Bulbasaur (clone)": "$t(Bulbasaur) $t(alt.clone)",
