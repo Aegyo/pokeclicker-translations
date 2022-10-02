@@ -25,6 +25,9 @@ jobs:
     - run: npm run i18n-sync
     - name: Get changed files
       id: get_changed
-      run: git status ./locales -s
+      run: |
+        CHANGED_FILES=$(git status ./locales -s)
+        echo "$CHANGED_FILES"
+        echo "::set-output name=files::$CHANGED_FILES"
     - name: Assert nothing changed
-      run: if [ -z ${{ steps.get_changed.outcome }} ]; then exit 1; fi
+      run: if [ -z ${{ steps.get_changed.outputs.files }} ]; then exit 1; fi
