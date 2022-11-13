@@ -8,10 +8,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2.5.0
 
-      - name: Merge development -> main
+      - name: Merge develop -> main
         uses: devmasx/merge-branch@v1.4.0
         with:
           type: now
-          from_branch: development
+          from_branch: develop
           target_branch: main
           github_token: ${{ github.token }}
