@@ -1,6 +1,6 @@
-name: Sync multiple branches
+name: Release to GH Pages
 on:
-  workflow_run:
+  workflow_dispatch:
 
 jobs:
   release:
@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Merge development -> main
-        uses: devmasx/merge-branch@v1.4
+        uses: devmasx/merge-branch@v1
         with:
           type: now
           from_branch: development
